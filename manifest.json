@@ -1,0 +1,120 @@
+{
+    "@platforms" : [ "android", "iPhone", "iPad" ],
+    "id" : "H5E2157D8",
+    "name" : "健身刷题助手",
+    "version" : {
+        "name" : "1.0.3",
+        "code" : 103
+    },
+    "description" : "健身训练 + 跑步 + 刷题学习综合助手",
+    "icons" : {
+        "72" : "unpackage/res/icons/72x72.png"
+    },
+    "launch_path" : "index.html",
+    "developer" : {
+        "name" : "",
+        "email" : "",
+        "url" : ""
+    },
+    "permissions" : {
+        "Device" : {
+            "description" : "访问设备信息"
+        },
+        "File" : {
+            "description" : "访问本地文件系统"
+        },
+        "Geolocation" : {
+            "description" : "访问位置信息"
+        },
+        "NativeUI" : {
+            "description" : "原生UI控件"
+        },
+        "Navigator" : {
+            "description" : "浏览器信息"
+        },
+        "Runtime" : {
+            "description" : "访问运行期环境"
+        },
+        "Storage" : {
+            "description" : "管理应用本地数据"
+        },
+        "Webview" : {
+            "description" : "窗口管理"
+        },
+        "XMLHttpRequest" : {
+            "description" : "跨域网络访问"
+        },
+        "Push" : {}
+    },
+    "plus" : {
+        "splashscreen" : {
+            "autoclose" : true,
+            "waiting" : true
+        },
+        "popGesture" : "none",
+        "runmode" : "normal",
+        "distribute" : {
+            "apple" : {
+                "appid" : "",
+                "mobileprovision" : "",
+                "password" : "",
+                "p12" : "",
+                "devices" : "universal",
+                "frameworks" : [],
+                "idfa" : false
+            },
+            "google" : {
+                "packagename" : "plus.H5E2157D8",
+                "keystore" : "",
+                "password" : "",
+                "aliasname" : "",
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            "orientation" : [ "portrait-primary" ],
+            "icons" : {
+                "ios" : {},
+                "android" : {
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png"
+                }
+            },
+            "splashscreen" : {
+                "ios" : {},
+                "android" : {
+                    "mdpi" : "unpackage/res/splash/240x282.png",
+                    "ldpi" : "unpackage/res/splash/320x442.png",
+                    "hdpi" : "unpackage/res/splash/480x762.png",
+                    "xhdpi" : "unpackage/res/splash/720x1242.png",
+                    "xxhdpi" : "unpackage/res/splash/1080x1882.png"
+                }
+            },
+            "plugins" : {
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "android" ]
+                    }
+                },
+                "maps" : {},
+                "push" : {}
+            },
+            "ios" : {
+                "dSYMs" : false
+            }
+        }
+    },
+    "screenOrientation" : [ "portrait-primary" ]
+}
